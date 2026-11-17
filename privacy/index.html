@@ -82,7 +82,7 @@
       <li><strong>Heroku</strong> (Salesforce) runs our server and our database (Heroku Postgres). It holds everything above, except pictures. It is in Heroku's EU region.</li>
       <li><strong>Cloudinary</strong> keeps pictures. Profile pictures have a public link that is hard to guess. Receipt photos, chat photos and local-service photos are <strong>private</strong>: they open only through a link that works for a few minutes.</li>
       <li><strong>Firebase Cloud Messaging</strong> (Google) gets your notification token and the text of each notification.</li>
-      <li><strong>Email</strong>: Resend today, moving to CloudMailIn. It gets your email address and the text of our emails, such as sign-in codes.</li>
+      <li><strong>Email</strong>: Brevo. It gets your email address and the text of our emails, such as sign-in codes.</li>
       <li><strong>Better Stack</strong> (Logtail) keeps a copy of the server logs for <strong>8 days</strong>.</li>
       <li><strong>Google Sign-In</strong> and <strong>Sign in with Apple</strong>, only if you choose them. We keep the account id and the email they send us.</li>
       <li><strong>Sentry</strong> gets error and speed reports from the app, <strong>without who you are</strong>. It is in the EU (Germany). See below.</li>
