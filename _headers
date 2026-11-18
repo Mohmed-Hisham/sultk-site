@@ -1,5 +1,5 @@
 # Cloudflare Pages headers. The site has no scripts, no inline styles and no outside files,
-# so the CSP allows only its own CSS and images. GitHub Pages ignores this file.
+# so the CSP allows only its own CSS and images.
 /*
   Content-Security-Policy: default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests
   X-Content-Type-Options: nosniff
